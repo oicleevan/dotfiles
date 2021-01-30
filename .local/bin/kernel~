@@ -1,0 +1,3 @@
+#!/bin/bash
+kernel="$(uname -r)"
+echo -e "\e[1mkernel: \e[0m$kernel"

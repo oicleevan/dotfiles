@@ -1,0 +1,12 @@
+set fish_greeting
+set TERM "xterm-256color"
+set EDITOR "nvim"
+set VISUAL "code"
+
+alias grep='rg'
+alias ls='exa -a'
+alias cat='bat'
+alias sudo='doas'
+alias please='doas'
+
+/home/eo/.local/bin/master

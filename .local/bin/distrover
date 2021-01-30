@@ -1,0 +1,5 @@
+#!/bin/bash
+
+distro=$(lsb_release -d | awk '{print $2}')
+version=$(lsb_release -r | awk '{print $2}')
+echo -e "\e[1mdistro: \e[0m$distro $version"
