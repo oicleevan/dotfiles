@@ -1,7 +1,0 @@
-#!/bin/bash
-kernel="$(/home/eo/.local/bin/kernel)"
-ascii="$(python /home/eo/.local/bin/ascii.py)"
-
-echo "$ascii"
-echo "$kernel"
-echo " "
