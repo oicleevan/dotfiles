@@ -1,8 +1,0 @@
-#!/bin/bash
-kernel="$(/home/eo/.local/bin/kernel)"
-distrover="$(/home/eo/.local/bin/distrover)"
-ascii="$(python /home/eo/.local/bin/ascii.py)"
-
-echo "$ascii"
-echo "$kernel | $distrover"
-echo " "
